@@ -1,7 +1,7 @@
 <?php
 include 'connection.php';
-$connection=mysqli_connect("zerowaste-rds.cxckq8ueksk6.us-east-1.rds.amazonaws.com:3306","admin","Panta1234");
-$db=mysqli_select_db($connection,'demo');
+$connection=mysqli_connect("zerohunger.c03uhohp3ztg.us-east-1.rds.amazonaws.com","admin","Password0123");
+$db=mysqli_select_db($connection,'zerohunger');
 if(isset($_POST['sign']))
 {
 

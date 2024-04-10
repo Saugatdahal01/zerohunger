@@ -1,6 +1,6 @@
  <?php
-//  $connection=mysqli_connect("localhost:3307","root","");
-// $db=mysqli_select_db($connection,'demo');
+$connection=mysqli_connect("zerohunger.c03uhohp3ztg.us-east-1.rds.amazonaws.com","admin","Password0123");
+$db=mysqli_select_db($connection,'zerohunger');
 include '../connection.php';
 $acc=0;
 $msg=0;
